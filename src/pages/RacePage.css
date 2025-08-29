@@ -1,0 +1,59 @@
+/* Shared styles for Weekly and Race Results pages */
+
+.rp-wrap{ max-width: 1000px; margin: 0 auto; padding: 20px 16px 48px; }
+.rp-head{ display:flex; align-items:flex-end; justify-content:space-between; gap:12px; margin-bottom:14px; }
+.rp-title{ margin:0; font-size: clamp(20px, 3.2vw, 28px); letter-spacing:.3px; }
+.rp-sub{ color: var(--muted); font-size: 13px; }
+
+.rp-sec{ margin-top: 24px; }
+.rp-sec h2{ margin: 0 0 10px; font-size: 18px; color: #d7efe4; }
+
+.rp-card{ border:1px solid var(--border); border-radius:12px; background: var(--bg-soft); box-shadow: 0 6px 18px rgba(0,0,0,.22); }
+.rp-card-body{ padding: 14px; }
+
+/* Grids */
+.rp-grid{ display:grid; grid-template-columns: 1fr; gap: 10px; }
+.rp-grid-2{ display:grid; grid-template-columns: 1fr; gap: 12px; }
+@media (min-width: 760px){
+  .rp-grid-2{ grid-template-columns: 1fr 1fr; }
+}
+
+/* Entries (出走馬) */
+.rp-entries{ display:grid; grid-template-columns: 1fr; gap:8px; }
+.rp-entry{ display:flex; align-items:center; justify-content:space-between; gap:8px; padding:10px 12px; border:1px solid var(--border); border-radius:10px; background: rgba(255,255,255,.02); }
+.rp-entry-left{ display:flex; align-items:center; gap:10px; }
+.rp-entry-name{ font-weight:600; }
+.rp-pill{ display:inline-block; padding:2px 8px; border-radius:999px; border:1px solid var(--border); background: rgba(255,255,255,.06); font-size:12px; color:var(--fg); }
+
+/* Draw (枠順) */
+.rp-draw{ display:flex; flex-wrap:wrap; gap:8px; }
+.rp-gate{ display:flex; align-items:center; gap:8px; padding:8px 10px; border:1px solid var(--border); border-radius:10px; background: rgba(255,255,255,.03); }
+.rp-gate-no{ width:24px; height:24px; display:inline-grid; place-items:center; border-radius:6px; background:#223145; color:#d7efe4; font-size:12px; font-weight:700; }
+
+/* Marks (印) */
+.rp-picks{ display:grid; grid-template-columns: 1fr; gap:8px; }
+.rp-pick{ display:grid; grid-template-columns: 72px 1fr; gap:10px; padding:10px 12px; border:1px solid var(--border); border-radius:10px; background: rgba(255,255,255,.02); }
+.rp-mark{ font-size:18px; }
+.rp-reason{ color: var(--fg); }
+
+/* Comments per horse */
+.rp-comments{ display:grid; grid-template-columns: 1fr; gap:10px; }
+.rp-comment{ border:1px solid var(--border); border-radius:10px; }
+.rp-comment header{ display:flex; align-items:center; justify-content:space-between; padding:10px 12px; border-bottom:1px dashed var(--border); }
+.rp-comment h3{ margin:0; font-size:14px; }
+.rp-comment .rp-card-body{ line-height:1.8; }
+
+/* Info, Pace, Buy tickets */
+.rp-callout{ border:1px solid var(--border); border-left:4px solid var(--green); border-radius:10px; background: linear-gradient(180deg, rgba(183,245,207,.06), rgba(183,245,207,.02)); }
+.rp-list{ margin:0; padding-left:16px; }
+.rp-list li{ line-height:1.8; }
+
+.rp-bets{ display:grid; grid-template-columns: 1fr; gap:10px; }
+.rp-bet{ display:grid; grid-template-columns: 96px 1fr; gap:10px; padding:10px 12px; border:1px dashed var(--border); border-radius:10px; }
+.rp-bet-type{ color:var(--muted); }
+.rp-bet-lines{ color:var(--fg); }
+
+/* Results table (for past races) */
+.rp-table{ width:100%; border-collapse: collapse; }
+.rp-table th, .rp-table td{ border-bottom:1px solid var(--border); padding:8px 6px; text-align:left; }
+.rp-table th{ color:#cfe7da; font-weight:600; }

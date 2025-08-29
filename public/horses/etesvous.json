@@ -1,0 +1,37 @@
+{
+  "id": "etosvous",
+  "name": "エトヴプレ",
+  "sex": "牝",
+  "trainer": "栗東・藤岡健一",
+  "sire": "TooDarnHot",
+  "dam": "Clodovil",
+  "damsire": "",
+  "femaleLine": "",
+  "style": "--",
+  "birth": {
+    "year": 2021,
+    "month": 3,
+    "day": 31
+  },
+  "prefCourses": ["--"],
+  "image": "/images/horses/t.jpg",
+  "currentOpinionUpdatedAt": "2025-08-23",
+  "currentOpinion": "--",
+  "history": [
+    {
+      "date": "20XX-XX-XX",
+      "race": "--",
+      "track": "--",
+      "surface": "芝",
+      "distance": 2200,
+      "going": "良",
+      "draw": 1,
+      "pos": "着",
+      "time": "X:XX.X",
+      "pace": "S→L",
+      "margin": "0.6",
+      "cause": "--",
+      "comment": "--"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sapporo-memorial-2025",
+    "title": "札幌記念 (GII)",
+    "date": "2025-08-24",
+    "course": "札幌 芝2000m",
+    "image": "/images/weekly/sapporo.jpg",
+    "url": "/races/sapporo-memorial-2025.html"
+  },
+  {
+    "id": "kitakyushu-kinen-2025",
+    "title": "北九州記念 (GIII)",
+    "date": "2025-08-24",
+    "course": "小倉 芝1200m",
+    "image": "/images/weekly/kitakyushu.jpg",
+    "url": "/races/kitakyushu-kinen-2025.html"
+  },
+  {
+    "id": "niigata-2yo-2025",
+    "title": "新潟2歳S (GIII)",
+    "date": "2025-08-31",
+    "course": "新潟 芝1600m",
+    "image": "/images/weekly/niigata2s.jpg",
+    "url": "/races/niigata-2yo-stakes-2025.html"
+  }
+]

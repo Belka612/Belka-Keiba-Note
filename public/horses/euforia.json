@@ -1,0 +1,37 @@
+{
+  "id": "euforia",
+  "name": "エフフォーリア",
+  "sex": "牡",
+  "trainer": "美浦・鹿戸雄一",
+  "sire": "エピファネイア",
+  "dam": "ケイティーズハート",
+  "damsire": "ハーツクライ",
+  "femaleLine": "ケイティーズ系",
+  "style": "先行",
+  "birth": {
+    "year": 2018,
+    "month": 3,
+    "day": 10
+  },
+  "prefCourses": ["東京", "中山"],
+  "image": "/images/horses/euforia.jpg",
+  "currentOpinionUpdatedAt": "2025-08-18",
+  "currentOpinion": "前走は折り合い優先で仕掛け遅れ。今走は内目で脚を溜められれば巻き返し十分。上がり重点で対抗評価。",
+  "history": [
+    {
+      "date": "2025-06-23",
+      "race": "宝塚記念 (G1)",
+      "track": "阪神",
+      "surface": "芝",
+      "distance": 2200,
+      "going": "良",
+      "draw": 5,
+      "pos": "6着",
+      "time": "2:12.9",
+      "pace": "S→L",
+      "margin": "0.6",
+      "cause": "超スローからのロンスパで位置取り後ろ。直線で前が壁になり追い出し遅れ。",
+      "comment": "地力は示したが展開向かず。適距離短縮で良化見込み。"
+    }
+  ]
+}
